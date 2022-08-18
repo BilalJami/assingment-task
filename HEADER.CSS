@@ -1,0 +1,238 @@
+.header {
+  background-color: rgb(80, 80, 162);
+  max-width: 99%;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+nav {
+  display: flex;
+  background: blue;
+  /* color: white; */
+  width: 95%;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+}
+
+.logo {
+  width: 15%;
+  /* border: 2px solid red; */
+  font-size: large;
+  text-align: center;
+}
+
+.manu-items {
+  width: 70%;
+  /* border: 2px solid red; */
+  text-align: center;
+  padding: 100px auto;
+}
+ul {
+  justify-content: center;
+  /* border: 2px solid black; */
+  font-size: 23px;
+}
+
+li {
+  list-style: none;
+}
+li a {
+  padding: 0 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+li a:hover {
+  border-bottom: 1px solid red;
+  padding-top: 5px;
+  color: aqua;
+  font-size: 20px;
+}
+
+.talk-btn {
+  width: 15%;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+.talk-btn .btn-primary {
+  text-decoration: none;
+  margin-top: 20px;
+  align-items: center;
+  font-size: large;
+  color: white;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links .link {
+  list-style-image: url("./images/facebook1.png");
+  width: 20px;
+}
+
+.social-links .link1 {
+  list-style-image: url("./images/linkedin.png");
+}
+
+.social-links .link2 {
+  list-style-image: url("./images/indeed.png");
+  width: 20px;
+}
+
+/* ################### After Nav bar New Section ###################### */
+
+.prosonal-info {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+  /* border: 1px solid red; */
+}
+
+.picd {
+  width: 50%;
+  height: 470px;
+  background-color: aliceblue;
+  border: 1px solid green;
+  border-radius: 3%;
+  margin: 0 2px;
+}
+
+.name-data {
+  text-align: center;
+  margin-top: 180px;
+}
+.name-data span {
+  color: rgb(255, 21, 0);
+  font-size: large;
+}
+.name-data .one {
+  padding-top: 5px;
+  color: rgb(11, 224, 71);
+  font-size: 30px;
+}
+.name-data .two {
+  color: rgb(255, 21, 0);
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 95%;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.aboutme {
+  background-color: aliceblue;
+  border-radius: 10%;
+  border: 5px solid green;
+  padding: 50px 100px;
+}
+
+.aboutme h1 {
+  font-size: 50px;
+}
+.aboutme p {
+  font-size: 20px;
+}
+
+.aboutme h1 {
+  color: green;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+}
+
+.aboutme p {
+  word-spacing: 5px;
+}
+
+.lets-talk-sect {
+  margin: 80px 20px;
+  display: flex;
+}
+
+.form-data {
+  width: 60%;
+  /* border: 1px solid red; */
+  height: 500px;
+}
+
+.contact-data {
+  width: 40%;
+  /* border: 1px solid red; */
+  height: 500px;
+}
+
+.let-talkh1 {
+  font-size: 75px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+.inform {
+  font-size: 38px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin: 30px 270px;
+}
+
+form {
+  width: 90%;
+  /* border: 2px solid aliceblue; */
+  margin: 10px auto;
+  height: 472px;
+  /* padding: 0 30px; */
+}
+
+form input {
+  width: 650px;
+  height: 45px;
+  margin: 5px 30px;
+  font-size: 24px;
+}
+
+form input[type="submit"] {
+  color: red;
+  width: 200px;
+}
+
+.contact-data div {
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  color: white;
+  margin-top: 30px;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: aquamarine;
+  display: flex;
+}
+
+.footer h1 {
+  color: red;
+  margin-left: 30px;
+  font-size: 42px;
+}
+
+.footer ul {
+  font-size: 35px;
+  color: red;
+  margin-left: 403px;
+}
+
+.footer p {
+  color: red;
+  font-size: 31px;
+  margin-left: 457px;
+}
